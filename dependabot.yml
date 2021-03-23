@@ -2,6 +2,21 @@ version: 2
 updates:
 
   - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "pip"
     directory: "/abc"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "pip"
+    directory: "/jkl/sub/sub"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "pip"
+    directory: "/xyz/sub/sub/sub"
     schedule:
       interval: "daily"
