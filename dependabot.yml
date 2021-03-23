@@ -7,11 +7,11 @@ updates:
       interval: "daily"
 
   - package-ecosystem: "python"
-    directory: "/abc"
+    directory: "/abc/sub"
     schedule:
       interval: "daily"
 
   - package-ecosystem: "python"
-    directory: "/jkl"
+    directory: "/jkl/sub/sub"
     schedule:
       interval: "daily"
