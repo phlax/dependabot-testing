@@ -5,8 +5,3 @@ updates:
     directory: "/abc/sub"
     schedule:
       interval: "daily"
-
-  - package-ecosystem: "python"
-    directory: "/jkl/sub/sub"
-    schedule:
-      interval: "daily"
