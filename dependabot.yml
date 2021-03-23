@@ -2,11 +2,6 @@ version: 2
 updates:
 
   - package-ecosystem: "python"
-    directory: "/"
-    schedule:
-      interval: "daily"
-
-  - package-ecosystem: "python"
     directory: "/abc/sub"
     schedule:
       interval: "daily"
