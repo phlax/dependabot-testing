@@ -2,6 +2,6 @@ version: 2
 updates:
 
   - package-ecosystem: "pip"
-    directory: "/abc/sub"
+    directory: "/abc"
     schedule:
       interval: "daily"
