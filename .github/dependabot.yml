@@ -21,3 +21,8 @@ updates:
     directory: "/xyz/sub/sub/sub"
     schedule:
       interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/ci"
+    schedule:
+      interval: daily
